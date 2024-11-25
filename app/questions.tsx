@@ -228,11 +228,11 @@ function useAsk(): {
         });
 
         if (!res.ok) {
-          throw new Error(`Request failed with ${res.status}`);
+          throw new Error(`Unable to submit question (${res.status})`);
         }
 
         if (!res.body) {
-          throw new Error(`No response body`);
+          throw new Error(`Server returned invalid response`);
         }
 
         const jsonParser = new JSONParser({
@@ -318,6 +318,7 @@ function useAsk(): {
       } catch (err) {
         updateQuestion(slug, {
           error: (err as Error).message,
+          isLoading: false,
         });
       }
     },

@@ -11,6 +11,7 @@ import {
   Text,
   Link,
   IconButton,
+  Callout,
 } from "@radix-ui/themes";
 import { formatDistanceToNow } from "date-fns";
 import { AnswerCard } from "./answer-card";
@@ -21,6 +22,7 @@ import { useState } from "react";
 import {
   CaretDownIcon,
   CaretRightIcon,
+  CrossCircledIcon,
   Share2Icon,
 } from "@radix-ui/react-icons";
 
@@ -39,6 +41,7 @@ export function QuestionCard({
             <IconButton
               variant="soft"
               onClick={() => setIsExpanded((expanded) => !expanded)}
+              color={"error" in question && question.error ? "red" : undefined}
             >
               {isExpanded ? (
                 <CaretDownIcon width={20} height={20} />
@@ -69,6 +72,16 @@ export function QuestionCard({
           </WebShare>
         </Flex>
         <Heading>{question.content}</Heading>
+
+        {isExpanded && "error" in question && question.error ? (
+          <Callout.Root color="red">
+            <Callout.Icon>
+              <CrossCircledIcon />
+            </Callout.Icon>
+            <Callout.Text>{question.error}</Callout.Text>
+          </Callout.Root>
+        ) : null}
+
         {isExpanded && question.answers?.length ? (
           <>
             <Grid columns={{ md: "2", initial: "1" }} gap="3">

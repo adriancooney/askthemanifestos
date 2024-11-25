@@ -17,7 +17,7 @@ import { QuestionCard } from "./question-card";
 
 const SAMPLE_QUESTIONS = [
   "Will you support taxing the wealthy?",
-  "Will you close corporate tax loopholes?",
+  "What changes will you make to increase housing supply?",
   "What's your stance on Climate Change?",
   "Will you reduce fuel prices?",
   "Will you reduce the price of alcohol?",

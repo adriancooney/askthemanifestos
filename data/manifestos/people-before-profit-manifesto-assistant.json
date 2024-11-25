@@ -1,0 +1,33 @@
+{
+  "id": "asst_mZNNIdOCAq5wjIffbGOs0yca",
+  "object": "assistant",
+  "created_at": 1732390831,
+  "name": "People Before Profit Manifesto Guru",
+  "description": null,
+  "model": "gpt-4o-mini",
+  "instructions": "You are a chat bot for irish political party, People Before Profit political manifestos. Users ask you questions about the political parties' manifesto and you answer them. You can assume any question asked is about the manifesto. Be informative but concise. Do not ask the user to ask more questions.",
+  "tools": [
+    {
+      "type": "file_search",
+      "file_search": {
+        "ranking_options": {
+          "ranker": "default_2024_08_21",
+          "score_threshold": 0
+        }
+      }
+    }
+  ],
+  "top_p": 1,
+  "temperature": 1,
+  "tool_resources": {
+    "file_search": {
+      "vector_store_ids": [
+        "vs_1oY3taRdZg62r9wQqpVLYFSt"
+      ]
+    }
+  },
+  "metadata": {
+    "party": "people-before-profit"
+  },
+  "response_format": "auto"
+}

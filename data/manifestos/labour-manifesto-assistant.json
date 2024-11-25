@@ -1,0 +1,33 @@
+{
+  "id": "asst_52p7oOcSrICcBnUkZggnDbF8",
+  "object": "assistant",
+  "created_at": 1732390831,
+  "name": "Labour Manifesto Guru",
+  "description": null,
+  "model": "gpt-4o-mini",
+  "instructions": "You are a chat bot for irish political party, Labour political manifestos. Users ask you questions about the political parties' manifesto and you answer them. You can assume any question asked is about the manifesto. Be informative but concise. Do not ask the user to ask more questions.",
+  "tools": [
+    {
+      "type": "file_search",
+      "file_search": {
+        "ranking_options": {
+          "ranker": "default_2024_08_21",
+          "score_threshold": 0
+        }
+      }
+    }
+  ],
+  "top_p": 1,
+  "temperature": 1,
+  "tool_resources": {
+    "file_search": {
+      "vector_store_ids": [
+        "vs_qoxlWYu8K0yD1I17s3HGRC8K"
+      ]
+    }
+  },
+  "metadata": {
+    "party": "labour"
+  },
+  "response_format": "auto"
+}

@@ -1,0 +1,64 @@
+{
+  "parties": [
+    {
+      "slug": "aontu",
+      "name": "Aontú",
+      "url": "https://aontu.ie",
+      "manifestoUrl": "https://aontu.ie/manifesto-general-election-2024"
+    },
+    {
+      "slug": "fianna-fail",
+      "name": "Fianna Fáil",
+      "url": "https://www.fiannafail.ie",
+      "manifestoUrl": "https://7358484.fs1.hubspotusercontent-na1.net/hubfs/7358484/FF%20Manifesto%202024_V4_Screen%5B45%5D.pdf"
+    },
+    {
+      "slug": "fine-gael",
+      "name": "Fine Gael",
+      "url": "https://www.finegael.ie",
+      "manifestoUrl": "https://www.finegael.ie/app/uploads/2024/11/Fine-Gael-General-Election-2024-Manifesto.pdf"
+    },
+    {
+      "slug": "green-party",
+      "name": "Green Party",
+      "url": "https://www.greenparty.ie",
+      "manifestoUrl": "https://www.greenparty.ie/sites/default/files/2024-11/Manifesto%20OCT%2024%20-%20digital%20version_final.pdf"
+    },
+    {
+      "slug": "independent-ireland",
+      "name": "Independent Ireland",
+      "url": "https://www.independentireland.ie",
+      "manifestoUrl": "https://static1.squarespace.com/static/64cdfa8cebed2a5db88d4067/t/674070155769cc5ca7f808fc/1732276247502/General+Election+Manifesto+Final+Nov+22_compressed.pdf"
+    },
+    {
+      "slug": "labour",
+      "name": "Labour",
+      "url": "https://labour.ie",
+      "manifestoUrl": "https://labour.ie/wp-content/uploads/2021/10/Labour-Manifesto-2024-Building-Better-Together.pdf"
+    },
+    {
+      "slug": "people-before-profit",
+      "name": "People Before Profit",
+      "url": "https://www.pbp.ie",
+      "manifestoUrl": "https://www.pbp.ie/content/files/2024/11/PBP-Manifesto-GE2024-2.pdf"
+    },
+    {
+      "slug": "right-to-change",
+      "name": "Right to Change",
+      "url": "https://righttochange.ie",
+      "manifestoUrl": "https://righttochange.ie/wp-content/uploads/2020/07/Policy-Principals.pdf"
+    },
+    {
+      "slug": "sinn-fein",
+      "name": "Sinn Féin",
+      "url": "https://sinnfein.ie",
+      "manifestoUrl": "https://vote.sinnfein.ie/wp-content/uploads/2024/11/SinnFeinManifesto2024.pdf"
+    },
+    {
+      "slug": "social-democrats",
+      "name": "Social Democrats",
+      "url": "https://www.socialdemocrats.ie/",
+      "manifestoUrl": "https://www.socialdemocrats.ie/wp-content/uploads/2024/11/Manifesto2024.pdf"
+    }
+  ]
+}

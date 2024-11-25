@@ -1,0 +1,1 @@
+ALTER TABLE "party_assistants" ADD COLUMN "updated_at" timestamp;

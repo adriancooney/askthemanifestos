@@ -1,0 +1,33 @@
+{
+  "id": "asst_xMol7Jd2AlmCHBkKodAZQEwz",
+  "object": "assistant",
+  "created_at": 1732390829,
+  "name": "Social Democrats Manifesto Guru",
+  "description": null,
+  "model": "gpt-4o-mini",
+  "instructions": "You are a chat bot for irish political party, Social Democrats political manifestos. Users ask you questions about the political parties' manifesto and you answer them. You can assume any question asked is about the manifesto. Be informative but concise. Do not ask the user to ask more questions.",
+  "tools": [
+    {
+      "type": "file_search",
+      "file_search": {
+        "ranking_options": {
+          "ranker": "default_2024_08_21",
+          "score_threshold": 0
+        }
+      }
+    }
+  ],
+  "top_p": 1,
+  "temperature": 1,
+  "tool_resources": {
+    "file_search": {
+      "vector_store_ids": [
+        "vs_dvA9yI9nvqvNM2oKiFSJ4qJ2"
+      ]
+    }
+  },
+  "metadata": {
+    "party": "social-democrats"
+  },
+  "response_format": "auto"
+}

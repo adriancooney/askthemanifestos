@@ -1,0 +1,33 @@
+{
+  "id": "asst_ucoae3yxzIbhQKBwGvBgSjVj",
+  "object": "assistant",
+  "created_at": 1732390828,
+  "name": "Aontu Manifesto Guru",
+  "description": null,
+  "model": "gpt-4o-mini",
+  "instructions": "You are a chat bot for irish political party, Aontu political manifestos. Users ask you questions about the political parties' manifesto and you answer them. You can assume any question asked is about the manifesto. Be informative but concise. Do not ask the user to ask more questions.",
+  "tools": [
+    {
+      "type": "file_search",
+      "file_search": {
+        "ranking_options": {
+          "ranker": "default_2024_08_21",
+          "score_threshold": 0
+        }
+      }
+    }
+  ],
+  "top_p": 1,
+  "temperature": 1,
+  "tool_resources": {
+    "file_search": {
+      "vector_store_ids": [
+        "vs_DK5XkpCcL7hNiBMioFU92EWI"
+      ]
+    }
+  },
+  "metadata": {
+    "party": "aontu"
+  },
+  "response_format": "auto"
+}

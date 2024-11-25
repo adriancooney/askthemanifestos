@@ -1,0 +1,1 @@
+ALTER TABLE "parties" ALTER COLUMN "slug" SET NOT NULL;

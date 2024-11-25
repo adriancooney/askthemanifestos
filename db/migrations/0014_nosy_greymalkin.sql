@@ -1,0 +1,1 @@
+ALTER TABLE "answers" ADD COLUMN "index" integer DEFAULT 0 NOT NULL;

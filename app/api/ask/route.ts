@@ -8,6 +8,8 @@ import { serializeCreateQuestionAndAnswerEvent } from "@/lib/atm/serialize";
 import { findOrCreateAnonymousCookieSession } from "@/lib/atm/auth";
 import { shuffle } from "lodash";
 
+export const maxDuration = 60;
+
 const AskRequestBody = z.object({
   question: z.string(),
 });

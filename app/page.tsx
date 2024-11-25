@@ -10,7 +10,6 @@ export default async function Page() {
     ? (
         await queryQuestions({
           userId: session.user.id,
-          completed: true,
         })
       ).map(serializeQuestion)
     : null;

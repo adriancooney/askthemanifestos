@@ -6,7 +6,6 @@ export async function GET() {
   const session = await findOrCreateAnonymousCookieSession();
   const questions = await queryQuestions({
     userId: session.user.id,
-    completed: true,
   });
 
   return Response.json({

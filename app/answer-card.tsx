@@ -71,7 +71,9 @@ export function AnswerCard({
           <>
             {answer.content ? (
               <>
-                <Markdown>{removeContentAnnotations(answer)}</Markdown>
+                <Box>
+                  <Markdown>{removeContentAnnotations(answer)}</Markdown>
+                </Box>
 
                 {answer.party.manifestoUrl && !isLoading ? (
                   <Callout.Root color="gray" size="1">
